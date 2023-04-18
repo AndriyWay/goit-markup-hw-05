@@ -581,6 +581,7 @@ img {
     border-color: transparent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
+    color: var(--white-color);
     background-color: var(--ocean-color);
 }
  
@@ -641,7 +642,7 @@ img {
     background-color: var(--primary-brand-color);
 }
 
-.text-project:is(:hover, :focus) .top-text {
+.project-link:is(:hover, :focus) .top-text {
     transform: translateY(-100%);
 }
 
